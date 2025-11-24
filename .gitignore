@@ -1,0 +1,50 @@
+### Gradle
+.gradle
+local.properties
+build/
+!src/**/build/
+**/build/
+**/build
+.kotlin
+**/*.db
+
+### Android
+captures
+.externalNativeBuild
+.cxx
+
+### Jetbrains IDEs ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.hprof
+out/
+.fleet/
+
+### iOS ###
+xcuserdata
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+Package.resolved
+
+### Web ###
+node_modules/
+
+### Mac OS ###
+.DS_Store
+
+### Firebase ###
+/androidApp/google-services.json
+iOSDemoApp/iOSDemoApp/GoogleService-Info.plist
